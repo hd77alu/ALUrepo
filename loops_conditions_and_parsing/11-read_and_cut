@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script is displaying content of the file /etc/passw
+
+while read line; do
+  IFS=":"
+  read username uid homedir rest <<< "$line"
+  echo "$username $uid $homedir"
+done < /etc/passwd
+
