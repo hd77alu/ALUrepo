@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # This script is displaying visitor IP along
+# Assuming your Apache access log file is named "access.log
 
-# Assuming your Apache access log file is named "access.log"
-awk '{print $1 " " $10}' access.log
+awk '{print $1 " " $9}' apache-access.log
 
