@@ -3,6 +3,7 @@
 displays good luck at the 8th loop iteration
 displays Best School at the other iterations
 
+i=1
 while [ $i -le 10 ]; do
   if [ $i -eq 4 ]; then
     echo "Bad luck"
@@ -11,5 +12,7 @@ while [ $i -le 10 ]; do
   else
     echo "Best School"
   fi
+  i=$((i+1))
 done
+
 
