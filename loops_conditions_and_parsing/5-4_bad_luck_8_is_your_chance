@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #this script displays bad luck for the 4th loop iteration
 
-var1="Best School "
+var1="Best School"
 var2="bad luck"
 var3="good luck"
 i="0"
