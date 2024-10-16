@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+#Bash script that displays its own PID.
 pid=$(ps -o pid= -p $$)
 echo "My PID is: $pid"
