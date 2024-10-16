@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+pid=$(ps -o pid= -p $$)
+echo "My PID is: $pid"
